@@ -2001,7 +2001,7 @@
             
             Cfg.SetVisible(true)
 
-            Library:Connection(RunService.RenderStepped, function()
+--[[            Library:Connection(RunService.RenderStepped, function()
                 if not Items.Watermark.Visible then 
                     return 
                 end 
@@ -2021,7 +2021,7 @@
 
                     Cfg.Fps = 0
                 end 
-            end)
+            end)]]
 
             return setmetatable(Cfg, Library)
         end 
